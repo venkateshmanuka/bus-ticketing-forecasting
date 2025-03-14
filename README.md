@@ -57,7 +57,7 @@ This project follows the **CRISP-ML(Q)** methodology:
 2. **Data Preparation** - Preprocessing, handling missing values, feature engineering.
 3. **Model Building** - ARIMA, SARIMA, LSTM models.
 4. **Model Evaluation** - Assess performance using RMSE, MAE, etc.
-5. **Model Deployment** - Flask API, Streamlit Dashboard.
+5. **Model Deployment** - Flask API, Streamlit Dashboard, Power BI Visualization.
 6. **Monitoring & Maintenance** - Track model performance over time.
 
 ---
@@ -68,6 +68,7 @@ This project follows the **CRISP-ML(Q)** methodology:
 - Handled **missing values**, **outliers**, and **duplicates**.
 - Applied **feature engineering** for trend analysis.
 - **Normalized** and **encoded** categorical features.
+- **Used SQL for data extraction and transformation.**
 
 ### ✅ 2. Model Development
 - **ARIMA (AutoRegressive Integrated Moving Average)** - Suitable for short-term forecasting.
@@ -81,6 +82,7 @@ This project follows the **CRISP-ML(Q)** methodology:
 ### ✅ 4. Deployment
 - **Flask API (`bus_optimization.py`)** for real-time forecasting.
 - **Streamlit Dashboard (`Bus_deployment.py`)** for interactive visualization.
+- **Power BI for advanced data visualization and reporting.**
 
 ---
 
@@ -88,10 +90,11 @@ This project follows the **CRISP-ML(Q)** methodology:
 
 ### **Programming Language**
 - Python
+- SQL (for data extraction and transformation)
 
 ### **Libraries & Frameworks**
 - **Data Manipulation**: Pandas, NumPy
-- **Data Visualization**: Matplotlib, Seaborn
+- **Data Visualization**: Matplotlib, Seaborn, Power BI
 - **Statistical Analysis & Forecasting**: Statsmodels (for ARIMA, SARIMA)
 - **Machine Learning**: TensorFlow, Keras (for LSTM)
 - **Data Preprocessing**: Scikit-learn
@@ -108,6 +111,8 @@ This project follows the **CRISP-ML(Q)** methodology:
 - **Operating System**: Windows 10/11, macOS, or Linux
 - **Python Version**: 3.9 or higher
 - **IDE/Editor**: Spyder, Jupyter Notebook, VS Code
+- **SQL Database**: PostgreSQL / MySQL
+- **BI Tool**: Power BI
 
 ---
 
@@ -130,6 +135,7 @@ This project follows the **CRISP-ML(Q)** methodology:
 - **Local Deployment:** Runs using `streamlit run Bus_deployment.py`
 - **Cloud Deployment (Future Scope):** Can be hosted on AWS, GCP, or Azure.
 - **Interactive Dashboard:** Users upload data, select a model, and view predictions.
+- **Power BI Reports:** Provides insights through advanced visualizations.
 - **Forecasting Range:** Predicts ticket demand for **1 to 60 days**.
 
 ---
